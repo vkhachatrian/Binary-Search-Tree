@@ -1,0 +1,8 @@
+﻿  Scanning sources for module dependencies...
+  main.cpp
+  BinarySearchTree.cpp
+  Compiling...
+  BinarySearchTree.cpp
+  main.cpp
+D:\Development\Vahan\bst\BinarySearchTree.cpp(57): warning C4715: 'BinarySearchTree::search_private': not all control paths return a value
+  BinarySearchTree.vcxproj -> D:\Development\Vahan\bst\x64\Debug\BinarySearchTree.exe
