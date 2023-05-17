@@ -1,7 +1,7 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\development\\vahan\\bst\\main.cpp",
+        "Source": "d:\\vahan\\bst\\main.cpp",
         "ProvidedModule": "",
         "Includes": [
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\iostream",
@@ -117,19 +117,19 @@
         "ImportedHeaderUnits": [
             {
                 "Header": "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\string",
-                "BMI": "D:\\Development\\Vahan\\bst\\x64\\Debug\\string_SBKUD8WNBCFE85HH.ifc"
+                "BMI": "D:\\Vahan\\bst\\x64\\Debug\\string_SBKUD8WNBCFE85HH.ifc"
             },
             {
                 "Header": "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\vector",
-                "BMI": "D:\\Development\\Vahan\\bst\\x64\\Debug\\vector_6EZALSF1QQ9PMXRF.ifc"
+                "BMI": "D:\\Vahan\\bst\\x64\\Debug\\vector_6EZALSF1QQ9PMXRF.ifc"
             },
             {
                 "Header": "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\initializer_list",
-                "BMI": "D:\\Development\\Vahan\\bst\\x64\\Debug\\initializer_list_SIZ2TDU3FG3UDJE6.ifc"
+                "BMI": "D:\\Vahan\\bst\\x64\\Debug\\initializer_list_SIZ2TDU3FG3UDJE6.ifc"
             },
             {
-                "Header": "d:\\development\\vahan\\bst\\binarysearchtree.h",
-                "BMI": "D:\\Development\\Vahan\\bst\\x64\\Debug\\BinarySearchTree.h_WY38EE1LU2JJ80R0.ifc"
+                "Header": "d:\\vahan\\bst\\binarysearchtree.h",
+                "BMI": "D:\\Vahan\\bst\\x64\\Debug\\BinarySearchTree.h_JACDK0A8MEF7LR71.ifc"
             }
         ]
     }

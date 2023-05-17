@@ -31,7 +31,10 @@ public:
     void preorderIter();
     void postorder();   // simetric
     void inorder();     // hakadarc
+    void levelOrder();
     void insert(int data);
+
+    int max();
 
     bool search(int data);
     
@@ -45,6 +48,9 @@ private:
     void postorder_private(TreeNode* root);
     TreeNode* search_private(TreeNode* root, int data);
     TreeNode* insert_private(TreeNode* root, int data);
+
+    int max_private(TreeNode* root);
+
 
     TreeNode* m_root;
 };

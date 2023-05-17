@@ -1,6 +1,7 @@
 #include "BinarySearchTree.h"
 
 #include <iostream>
+#include <queue>
 
 BinarySearchTree::BinarySearchTree()
 	:m_root{}
@@ -87,6 +88,27 @@ TreeNode* BinarySearchTree::insert_private(TreeNode* root, int data)
 	return root;
 }
 
+int BinarySearchTree::max_private(TreeNode* root)
+{
+	int root_val, left, right, max = INT_MIN;
+
+	if (root)
+	{
+		root_val = root->data;
+		left = max_private(root->m_left);
+		right = max_private(root->m_right);
+
+		if (left > right)
+			max = left;
+		else
+			max = right;
+
+		if (root_val > max)
+			max = root_val;
+	}
+	return max;
+}
+
 void BinarySearchTree::destroyBinaryTree()
 {
 	if (!m_root) return;
@@ -158,8 +180,33 @@ void BinarySearchTree::inorder()
 	inorder_private(m_root);
 }
 
+void BinarySearchTree::levelOrder()
+{
+	if (!m_root) return;
+
+	std::queue<TreeNode*> queue;
+
+	queue.push(m_root);
+
+	while (!queue.empty())
+	{
+		TreeNode* currentNode = std::move(queue.front());
+		queue.pop();
+		std::cout << currentNode->data << " ";
+		if (currentNode->m_left)
+			queue.push(currentNode->m_left);
+		if (currentNode->m_right)
+			queue.push(currentNode->m_right);
+	}
+}
+
 void BinarySearchTree::insert(int data)
 {
 	m_root = insert_private(m_root, data);
+}
+
+int BinarySearchTree::max()
+{
+	return max_private(m_root);
 }
 

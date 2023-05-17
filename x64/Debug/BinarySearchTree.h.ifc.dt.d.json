@@ -1,7 +1,7 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\development\\vahan\\bst\\binarysearchtree.h",
+        "Source": "d:\\vahan\\bst\\binarysearchtree.h",
         "ProvidedModule": "",
         "Includes": [
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\vector",

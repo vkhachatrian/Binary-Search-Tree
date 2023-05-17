@@ -1,10 +1,10 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\development\\vahan\\bst\\binarysearchtree.cpp",
+        "Source": "d:\\vahan\\bst\\binarysearchtree.cpp",
         "ProvidedModule": "",
         "Includes": [
-            "d:\\development\\vahan\\bst\\binarysearchtree.h",
+            "d:\\vahan\\bst\\binarysearchtree.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\vector",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\yvals_core.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\vcruntime.h",
@@ -115,7 +115,9 @@
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\cctype",
             "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\ctype.h",
             "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\clocale",
-            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\locale.h"
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\locale.h",
+            "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\queue",
+            "c:\\program files (x86)\\microsoft visual studio\\2019\\community\\vc\\tools\\msvc\\14.29.30133\\include\\algorithm"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

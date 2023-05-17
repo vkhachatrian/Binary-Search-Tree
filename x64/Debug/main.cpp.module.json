@@ -1,14 +1,14 @@
 {
     "Version": "1.1",
     "Data": {
-        "Source": "d:\\development\\vahan\\bst\\main.cpp",
+        "Source": "d:\\vahan\\bst\\main.cpp",
         "ProvidedModule": "",
         "ImportedModules": [],
         "ImportedHeaderUnits": [
             "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\string",
             "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\vector",
             "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\initializer_list",
-            "D:\\Development\\Vahan\\bst\\BinarySearchTree.h"
+            "D:\\Vahan\\bst\\BinarySearchTree.h"
         ]
     }
 }

@@ -17,9 +17,10 @@ int main()
 	tree.insert(7);
 	tree.insert(12);
 	tree.insert(9);
+	tree.insert(20);
 
 	
-	std::cout << tree.search(7);
+	tree.levelOrder();
 
 
 
