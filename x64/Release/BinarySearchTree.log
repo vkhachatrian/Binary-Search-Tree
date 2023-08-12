@@ -1,11 +1,13 @@
 ﻿  Scanning sources for module dependencies...
-  BinarySearchTree.cpp
+  main.cpp
   Compiling...
-  BinarySearchTree.cpp
+  main.cpp
+D:\Vahan\bst\main.cpp(3,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Vahan\bst\main.cpp(4,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Vahan\bst\main.cpp(6,1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Generating code
-D:\Development\Vahan\bst\BinarySearchTree.cpp(57): warning C4715: 'BinarySearchTree::search_private': not all control paths return a value
-  10 of 87 functions (11.5%) were compiled, the rest were copied from previous compilation.
+  2 of 63 functions ( 3.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  BinarySearchTree.vcxproj -> D:\Development\Vahan\bst\x64\Release\BinarySearchTree.exe
+  BinarySearchTree.vcxproj -> D:\Vahan\bst\x64\Release\BinarySearchTree.exe

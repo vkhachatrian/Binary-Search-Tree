@@ -1,14 +1,22 @@
 {
-    "Version": "1.1",
-    "Data": {
-        "Source": "d:\\development\\vahan\\bst\\main.cpp",
-        "ProvidedModule": "",
-        "ImportedModules": [],
-        "ImportedHeaderUnits": [
-            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\string",
-            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\vector",
-            "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include\\initializer_list",
-            "D:\\Development\\Vahan\\bst\\BinarySearchTree.h"
-        ]
-    }
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\main.cpp.obj",
+            "outputs": [
+                "D:\\Vahan\\bst\\x64\\Release\\vc143.pdb",
+                "x64\\Release\\",
+                "D:\\Vahan\\bst\\x64\\Release\\main.cpp.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "main.cpp",
+                    "source-path": "d:\\vahan\\bst\\main.cpp",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
 }

@@ -1,3 +1,8 @@
 ﻿  Scanning sources for module dependencies...
-  LINK : D:\Vahan\bst\x64\Debug\BinarySearchTree.exe not found or not built by the last incremental link; performing full link
+  main.cpp
+  Compiling...
+  main.cpp
+D:\Vahan\bst\main.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Vahan\bst\main.cpp(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\Vahan\bst\main.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   BinarySearchTree.vcxproj -> D:\Vahan\bst\x64\Debug\BinarySearchTree.exe

@@ -1,9 +1,22 @@
 {
-    "Version": "1.1",
-    "Data": {
-        "Source": "d:\\development\\vahan\\bst\\binarysearchtree.cpp",
-        "ProvidedModule": "",
-        "ImportedModules": [],
-        "ImportedHeaderUnits": []
-    }
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\BinarySearchTree.cpp.obj",
+            "outputs": [
+                "D:\\Vahan\\bst\\x64\\Release\\vc143.pdb",
+                "x64\\Release\\",
+                "D:\\Vahan\\bst\\x64\\Release\\BinarySearchTree.cpp.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "BinarySearchTree.cpp",
+                    "source-path": "d:\\vahan\\bst\\binarysearchtree.cpp",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
 }

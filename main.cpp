@@ -1,28 +1,26 @@
 ﻿#include <iostream>
-import <string>;
-import <vector>;
-import <initializer_list>;
-
-import "BinarySearchTree.h";
-
+#include "Utils.h"
+#include <string>;
+#include <vector>;
+#include <initializer_list>
+#include "BinarySearchTree.h";
 
 int main()
 {
-	BinarySearchTree tree;
+	BinarySearchTree firstTree;
 
-	tree.insert(8);
-	tree.insert(6);
-	tree.insert(10);
-	tree.insert(5);
-	tree.insert(7);
-	tree.insert(12);
-	tree.insert(9);
-	tree.insert(20);
+	firstTree.insert(8);
+	firstTree.insert(6);
+	firstTree.insert(10);
+	firstTree.insert(11);
 
-	
-	tree.levelOrder();
+	BinarySearchTree secondTree;
+	secondTree.insert(8);
+	secondTree.insert(6);
+	secondTree.insert(10);
+	secondTree.insert(11);
 
-
+	std::cout << "IsSame: " << Utils::is_same_tree(firstTree.root(), secondTree.root()) << std::endl;
 
 	return 0;
 }

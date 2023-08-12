@@ -1,1 +1,2 @@
 D:\Development\Vahan\bst\x64\Release\BinarySearchTree.exe
+D:\Vahan\bst\x64\Release\BinarySearchTree.exe

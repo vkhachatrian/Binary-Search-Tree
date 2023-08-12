@@ -20,7 +20,7 @@ class BinarySearchTree
 {
 
 public:
-	BinarySearchTree();
+	explicit BinarySearchTree();
 	~BinarySearchTree();
 
     void destroyBinaryTree();
@@ -33,12 +33,10 @@ public:
     void inorder();     // hakadarc
     void levelOrder();
     void insert(int data);
-
+    TreeNode* root() const;
     int max();
 
     bool search(int data);
-    
- 
 
 private:
     void createBinaryTree(TreeNode* root = nullptr); // creates empty binary tree

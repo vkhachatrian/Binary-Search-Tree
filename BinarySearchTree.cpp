@@ -205,8 +205,14 @@ void BinarySearchTree::insert(int data)
 	m_root = insert_private(m_root, data);
 }
 
+TreeNode* BinarySearchTree::root() const
+{
+	return m_root;
+}
+
 int BinarySearchTree::max()
 {
 	return max_private(m_root);
 }
+
 

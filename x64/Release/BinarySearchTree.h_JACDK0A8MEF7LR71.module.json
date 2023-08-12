@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "x64\\Release\\BinarySearchTree.h_JACDK0A8MEF7LR71.obj",
+            "outputs": [
+                "D:\\Vahan\\bst\\x64\\Release\\vc143.pdb",
+                "x64\\Release\\BinarySearchTree.h_JACDK0A8MEF7LR71.module.json",
+                "x64\\Release\\BinarySearchTree.h_JACDK0A8MEF7LR71.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "D:\\Vahan\\bst\\BinarySearchTree.h",
+                    "source-path": "d:\\vahan\\bst\\binarysearchtree.h",
+                    "lookup-method": "absolute"
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
