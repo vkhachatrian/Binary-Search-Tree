@@ -4,7 +4,7 @@
 #include <queue>
 
 BinarySearchTree::BinarySearchTree()
-	:m_root{}
+	:m_root{nullptr}
 {
 	//createBinaryTree();
 }
@@ -48,27 +48,29 @@ void BinarySearchTree::postorder_private(TreeNode* root)
 
 TreeNode* BinarySearchTree::search_private(TreeNode* root, int data)
 {
-	if (root == nullptr || root->data == data) { 
-		//std::cout << "Root: " << root->data << "\n";
-		return root; }
+	if (root == nullptr || root->data == data)
+		return root;
 	else if (data < root->data)
 		search_private(root->m_left, data);
 	else if (data > root->data)
 		search_private(root->m_right, data);
 }
 
-bool BinarySearchTree::search(int data)
+bool BinarySearchTree::find(int data)
 {
 	if (!m_root) return false;
 	TreeNode* res = nullptr;
 	res = search_private(m_root, data);
 
-	std::cout << res->data;
-
 	if (res == nullptr)
 		return false;
 
 	return true;
+}
+
+void BinarySearchTree::printTree()
+{
+	preorder();
 }
 
 TreeNode* BinarySearchTree::insert_private(TreeNode* root, int data)
@@ -78,12 +80,9 @@ TreeNode* BinarySearchTree::insert_private(TreeNode* root, int data)
 		return node;
 	}
 	else if (data < root->data)
-	{
 		 root->m_left = insert_private(root->m_left, data);
-	}
-	else {
+	else 
 		 root->m_right = insert_private(root->m_right, data);
-	}
 
 	return root;
 }
@@ -138,9 +137,7 @@ void BinarySearchTree::setRootData(int data)
 		createBinaryTree(root);
 	}
 	else
-	{
 		m_root->data = data;
-	}
 }
 
 void BinarySearchTree::preorder()
@@ -214,5 +211,3 @@ int BinarySearchTree::max()
 {
 	return max_private(m_root);
 }
-
-

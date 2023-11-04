@@ -9,9 +9,6 @@ namespace Utils {
 		bool isLeftSame = false;
 		bool isRightSame = false;
 
-		//std::cout << firstTreeRoot->data << std::endl;
-		//std::cout << secondTreeRoot->data << std::endl;
-
 		if (!firstTreeRoot && !secondTreeRoot) {
 			return true;
 		}

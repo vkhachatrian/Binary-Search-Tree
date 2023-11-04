@@ -1,9 +1,7 @@
 ﻿#include <iostream>
-#include "Utils.h"
-#include <string>;
-#include <vector>;
-#include <initializer_list>
+
 #include "BinarySearchTree.h";
+
 
 int main()
 {
@@ -14,13 +12,25 @@ int main()
 	firstTree.insert(10);
 	firstTree.insert(11);
 
-	BinarySearchTree secondTree;
-	secondTree.insert(8);
-	secondTree.insert(6);
-	secondTree.insert(10);
-	secondTree.insert(11);
 
-	std::cout << "IsSame: " << Utils::is_same_tree(firstTree.root(), secondTree.root()) << std::endl;
+	firstTree.printTree();
+	std::cout << std::endl;
+
+
+
+	BinarySearchTree secondTree;
+	secondTree.insert(1);
+	secondTree.insert(2);
+	secondTree.insert(3);
+	secondTree.insert(4);
+	secondTree.insert(5);
+	secondTree.insert(6);
+	secondTree.insert(7);
+
+
+	secondTree.printTree();
+
+
 
 	return 0;
 }
