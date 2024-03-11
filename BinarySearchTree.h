@@ -4,8 +4,6 @@
 #include <vector>
 #include <stack>
 
-
-
 struct TreeNode {
     int data;
     TreeNode* m_left;
@@ -33,34 +31,17 @@ public:
     //traversals iterative approach
     void preorderIter();
 
-
     void insert(int data);
-<<<<<<< .mine
     void setRootData(int data);
     int  getRootData();
-=======
     TreeNode* root() const;
 
->>>>>>> .theirs
-    int max();
-    bool find(int data);
-    void printTree();
-
-<<<<<<< .mine
     bool isEmpty();
     bool searchData(int data);
+    int max();
 
-=======
-
-
-
->>>>>>> .theirs
 private:
-<<<<<<< .mine
     void destroyBinaryTree();
-=======
-    void createBinaryTree(TreeNode* root = nullptr); // creates empty binary tree
->>>>>>> .theirs
     void inorder_private(TreeNode* root);
     void preorder_private(TreeNode* root);
     void postorder_private(TreeNode* root);

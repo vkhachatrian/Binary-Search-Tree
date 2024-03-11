@@ -4,11 +4,7 @@
 #include <queue>
 
 BinarySearchTree::BinarySearchTree()
-<<<<<<< .mine
 	: m_root{}
-=======
-	:m_root{nullptr}
->>>>>>> .theirs
 {
 }
 
@@ -40,13 +36,8 @@ void BinarySearchTree::postorder_private(TreeNode* root)
 
 TreeNode* BinarySearchTree::search_private(TreeNode* root, int data)
 {
-<<<<<<< .mine
 	if (root == nullptr || root->data == data) 
 		return root;
-=======
-	if (root == nullptr || root->data == data)
-		return root;
->>>>>>> .theirs
 	else if (data < root->data)
 		search_private(root->m_left, data);
 	else if (data > root->data)
@@ -55,58 +46,20 @@ TreeNode* BinarySearchTree::search_private(TreeNode* root, int data)
 	return nullptr;
 }
 
-<<<<<<< .mine
 bool BinarySearchTree::searchData(int data)
-=======
-bool BinarySearchTree::find(int data)
->>>>>>> .theirs
 {
-<<<<<<< .mine
 	if (!m_root) 
-
-
-
-
-=======
-	if (!m_root) return false;
-	TreeNode* res = nullptr;
-	res = search_private(m_root, data);
-
-	if (res == nullptr)
->>>>>>> .theirs
 		return false;
 
 	TreeNode* res = search_private(m_root, data);
 	return res == nullptr;
 }
 
-void BinarySearchTree::printTree()
-{
-	preorder();
-}
-
 TreeNode* BinarySearchTree::insert_private(TreeNode* root, int data)
 {
-<<<<<<< .mine
 	if (root == nullptr)
 		return new TreeNode(data);
-
-
-
-
-
-
-=======
-	if (root == nullptr) {
-		TreeNode* node = new TreeNode(data);
-		return node;
-	}
-	else if (data < root->data)
-		 root->m_left = insert_private(root->m_left, data);
-	else 
-		 root->m_right = insert_private(root->m_right, data);
->>>>>>> .theirs
-
+	
 	if (data < root->data)
 		root->m_left = insert_private(root->m_left, data);
 	else
