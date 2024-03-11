@@ -18,42 +18,40 @@ struct TreeNode {
 
 class BinarySearchTree
 {
-
 public:
-	BinarySearchTree();
+	explicit BinarySearchTree();
 	~BinarySearchTree();
 
-    void destroyBinaryTree();
-    bool isEmpty();
-    int  getRootData();
-    void setRootData(int data);
-    void preorder();    // uxix
-    void preorderIter();
-    void postorder();   // simetric
-    void inorder();     // hakadarc
+    //traversals
+    void preorder();
+    void postorder();   
+    void inorder();
     void levelOrder();
-    void insert(int data);
 
+    //traversals iterative approach
+    void preorderIter();
+
+
+    void insert(int data);
+    void setRootData(int data);
+    int  getRootData();
     int max();
 
-    bool search(int data);
-    
- 
+    bool isEmpty();
+    bool searchData(int data);
 
 private:
-    void createBinaryTree(TreeNode* root = nullptr); // creates empty binary tree
-
+    void destroyBinaryTree();
     void inorder_private(TreeNode* root);
     void preorder_private(TreeNode* root);
     void postorder_private(TreeNode* root);
     TreeNode* search_private(TreeNode* root, int data);
     TreeNode* insert_private(TreeNode* root, int data);
-
     int max_private(TreeNode* root);
 
 
     TreeNode* m_root;
 };
 
-#endif
+#endif // BINARYSEARCHTREE_H
 

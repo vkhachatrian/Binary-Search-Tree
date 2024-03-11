@@ -1,28 +1,44 @@
 ﻿#include <iostream>
-import <string>;
-import <vector>;
-import <initializer_list>;
 
-import "BinarySearchTree.h";
-
+#include "BinarySearchTree.h";
 
 int main()
 {
-	BinarySearchTree tree;
+    BinarySearchTree bst;
 
-	tree.insert(8);
-	tree.insert(6);
-	tree.insert(10);
-	tree.insert(5);
-	tree.insert(7);
-	tree.insert(12);
-	tree.insert(9);
-	tree.insert(20);
+    // Insert elements into the tree
+    bst.insert(50);
+    bst.insert(30);
+    bst.insert(20);
+    bst.insert(40);
+    bst.insert(70);
+    bst.insert(60);
+    bst.insert(80);
 
-	
-	tree.levelOrder();
+    // Perform various operations on the tree
+    std::cout << "Inorder traversal: ";
+    bst.inorder();
+    std::cout << std::endl;
 
+    std::cout << "Preorder traversal: ";
+    bst.preorder();
+    std::cout << std::endl;
 
+    std::cout << "Postorder traversal: ";
+    bst.postorder();
+    std::cout << std::endl;
 
-	return 0;
+    std::cout << "Level-order traversal: ";
+    bst.levelOrder();
+    std::cout << std::endl;
+
+    std::cout << "Maximum value in the tree: " << bst.max() << std::endl;
+
+    int data = 40;
+    if (bst.searchData(data))
+        std::cout << data << " found in the tree." << std::endl;
+    else
+        std::cout << data << " not found in the tree." << std::endl;
+
+    return 0;
 }
